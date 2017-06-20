@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  Background-color: black;
+  opacity: 0.9;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+nav {
+  display: inline-flex;
+  right: 10px;
+
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+  margin-right: 20px;
+  display: inline-block;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.top {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url("../imgs/img-mission-background.jpg");
+  align-items: center;
+  justify-content: center;
+  padding-top: 69px;
+}
+
+.top .ourmission {
+  display: block;
+  width: 1200px;
+  background-color: black;
+  text-align: center;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 30 0;
+  padding-bottom:60px;
+}
+.middle h2 {
+  padding-top: 60px;
+}
+.middle .photocontainer {
+  display: flex;
+  width: 1050px;
+  height: auto;
+  justify-content: center;
+  flex-direction: row;
+  margin: 10px;
+}
+.middle p {
+  margin: 0;
+}
+
+.middle .photocontainer div {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.middle .photocontainer img {
+  height: 200px;
+  width:300px;
+  margin: 10px 25px;
+
+}
+.bottom {
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../imgs/img-locations-background.jpg");
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.bottom h2 {
+  margin: 0;
+}
+.location-container {
+  display: flex;
+  margin: 0;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.location-squares {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+}
+.footer {
+  color: white;
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.footer h2, .footer h5{
+  margin: 0;
+}
+#copy {
+  position: relative;
+  display: block;
+  text-align: left;
+  margin: 20px;
+  height: auto;
+}
